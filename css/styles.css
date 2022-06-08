@@ -1,48 +1,95 @@
 /********************TAG SELECTORS*************************************/
-
-body{
-background-color: #bbe9f9;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",serif;
 }
 
-hr{
-width: 10%;
-border-style: dotted none none;
-border-width: 7px;
-border-color: black;
+div {
+    text-align: center;
+    width: 100%;
+    padding: 0;
 }
 
-h1{
-    color:rgb(4, 18, 152);
-    font-family: sans-serif;
-    font: 'Optiva';
+hr {
+    width: 10%;
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color: black;
 }
-h2{
-    color:rgb(4, 18, 152);
-    font-family: sans-serif;
-    font: 'Geneva';}
-h3{
-    color:rgb(4, 18, 152);
-    font-family: sans-serif;
-    font: 'Geneva';
+
+h1 {
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    font-family: "Montserrat", serif;
+    font-size: 45px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+
 }
 
 /********************CLASS SELECTORS (grouping)*************************************/
 
 
-.hobbyPic{
-    height:250px;
-} 
-.hobbyPic:hover{
+.hobbyPic {
+    height: 250px;
+}
+
+.hobbyPic:hover {
     height: 260px;
 }
-/*going to make another dclass called circular that applies to the hobby ones and the profile
-picture, things can have more than one class! got to instances for formatting*/
 
-.rounded{
+.rounded {
     border-radius: 0%;
-    
+
 }
 
+.firstDiv {
+    background-color: #F7CA8D;
+    padding: 0px;
+    padding-top: 125px;
+}
+
+.secondDiv {
+    background-color: #e69729;
+}
+
+.profilePic {
+    position: fixed;
+}
+
+.landscape {
+    background-color: transparent;
+}
+
+.cloud {
+    height: 50px;
+    position: absolute;
+}
+
+.top-cloud {
+    left: 350px;
+    top: 250px;
+}
+
+.bottom-cloud {
+    right: 360px;
+    top: 335px;
+}
+
+.mountainPic {
+    height: 450px;
+    padding-top: 10px;
+
+}
 
 /********************ID SELECTORS*************************************/
 
@@ -51,3 +98,13 @@ picture, things can have more than one class! got to instances for formatting*/
     height:300px;               this would make the baseball one bigger because ID is more specific than group
 }
 */
+
+#paragraph{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Montserrat", serif;
+    font-size: 25px;
+}
+#mainTitle{
+    padding-top: 200px;
+}
