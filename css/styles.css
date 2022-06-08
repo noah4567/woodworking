@@ -1,5 +1,7 @@
+/********************TAG SELECTORS*************************************/
+
 body{
-background-color: #A6E6FE;
+background-color: #bbe9f9;
 }
 
 hr{
@@ -8,3 +10,44 @@ border-style: dotted none none;
 border-width: 7px;
 border-color: black;
 }
+
+h1{
+    color:rgb(4, 18, 152);
+    font-family: sans-serif;
+    font: 'Optiva';
+}
+h2{
+    color:rgb(4, 18, 152);
+    font-family: sans-serif;
+    font: 'Geneva';}
+h3{
+    color:rgb(4, 18, 152);
+    font-family: sans-serif;
+    font: 'Geneva';
+}
+
+/********************CLASS SELECTORS (grouping)*************************************/
+
+
+.hobbyPic{
+    height:250px;
+} 
+.hobbyPic:hover{
+    height: 260px;
+}
+/*going to make another dclass called circular that applies to the hobby ones and the profile
+picture, things can have more than one class! got to instances for formatting*/
+
+.rounded{
+    border-radius: 0%;
+    
+}
+
+
+/********************ID SELECTORS*************************************/
+
+/*
+#baseballPic{
+    height:300px;               this would make the baseball one bigger because ID is more specific than group
+}
+*/
